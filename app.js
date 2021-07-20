@@ -4,7 +4,7 @@ app = express();
 
 const port = 8085;
 
-app.use('/api/v1/kasi', (req, res) => {
+app.use('naufalll-test.herokuapp.com/', (req, res) => {
     res.send(`Hello Kasii...`)
 })
 
